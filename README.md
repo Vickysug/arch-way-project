@@ -20,12 +20,14 @@ Note - this section will be added to as I work with and communicate with the org
     * Include policies
     * Include links to social media
     * Include images
+    * Make webstie responsive
     * (This section may be added to)
     * 
    ## Technologies used
    * HTML
    * CSS
    * Bootstrap
+   * Responsive
 
 ## Screenshot of finished app
 - To be added upon completion 
