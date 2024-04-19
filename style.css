@@ -17,9 +17,18 @@ body {
     margin-right: 20px; /* Add 20px of space to the right of the logo */
 }
 
-.jumbotron {
-    background-color: rgb(189, 69, 69);
+.nav {
+    background-color: rgb(66, 19, 19);
 }
+a {
+    color: blueviolet;
+}
+
+#jumbotron {
+    background-color: rgb(139, 233, 236);
+}
+
+
 .jumbo-image-home {
     width: 600px;
     height: auto; 
@@ -30,4 +39,10 @@ body {
     width: 500px;
     height: auto; 
     align-content: center;
+}
+#col-1 {
+    background-color: rgb(164, 216, 96);
+}
+#col-2 {
+    background-color: rgb(226, 163, 81);
 }
