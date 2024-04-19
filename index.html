@@ -5,221 +5,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Arch-way Project</title>
- <!-- Bootstrap CSS -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
- 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-
 <body>
+  <div class="main-container">
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img id="logo" class="logo" src="images/logo-white-background.png"/><br>
+            <img class="logo" src="images/logo-white-background.png" alt="Logo" /><br>
             <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Projects
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Project 1 </a>
-                    <a class="dropdown-item" href="#">Project 2</a>
-                    <a class="dropdown-item" href="#">Project 3</a>
-                    <a class="dropdown-item" href="#">Project 4</a>
-                    <a class="dropdown-item" href="#">Project 5</a>
-                    <a class="dropdown-item" href="#">Project 6</a>
-                    <a class="dropdown-item" href="#">Project 7</a>
-                    <a class="dropdown-item" href="#">Project 8</a>
-                    
-                  </div>
-                </li>
-                
-              </ul>
-              
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Project 1</a>
+                            <a class="dropdown-item" href="#">Project 2</a>
+                            <a class="dropdown-item" href="#">Project 3</a>
+                            <a class="dropdown-item" href="#">Project 4</a>
+                            <a class="dropdown-item" href="#">Project 5</a>
+                            <a class="dropdown-item" href="#">Project 6</a>
+                            <a class="dropdown-item" href="#">Project 7</a>
+                            <a class="dropdown-item" href="#">Project 8</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-          </nav>
-          <!-- Jumbotron -->
-          <div id="jumbertron" class="jumbotron jumbotron-fluid">
-            <div id="jumbertron" class="container">
-              <h1 class="display-4">ARCH-WAY PROJECT</h1>
-              <img id="images-1" class="images-1" src="images/place-holder.png"/>
-              <p class="lead">The Arch-Way Project is a charity based in Halifax, West Yorkshire, set up for the purpose of increasing the health and well-being of local communities, especially those living with mental health issues and who are isolated and lonely.</p>
+        </nav>
+
+
+
+<!-- Jumbotron -->
+        <div class="jumbotron" class="jumbotron jumbotron-fluid">
+            <div class="jumbotron" class="container">
+                <h1 class="display-4">ARCH-WAY PROJECT</h1>
+                <img class="images-1" src="images/place-holder.png" alt="Placeholder image" />
+                <p class="lead">The Arch-Way Project is a charity based in Halifax, West Yorkshire, set up for the purpose of increasing the health and well-being of local communities, especially those living with mental health issues and who are isolated and lonely.</p>
             </div>
-          </div>
+        </div>
     </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Column 1</h2>
+                <img class="images-1" src="images/place-holder.png" alt="Placeholder image" />
+                <p>This is column 1. It will take up 6/12 of the screen width on small devices and above.</p>
+            </div>
+            <div class="col-sm-6">
+                <h2>Column 2</h2>
+                <img class="images-1" src="images/place-holder.png" alt="Placeholder image" />
+                <p>This is column 2. It will take up 6/12 of the screen width on small devices and above.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">ARCH-WAY PROJECT</h6>
+                            <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Projects</h6>
+                            <p><a class="text-white" href="#">Art</a></p>
+                            <p><a class="text-white" href="#">Dance</a></p>
+                            <p><a class="text-white" href="#">Craft</a></p>
+                            <p><a class="text-white" href="#">Music</a></p>
+                        </div>
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                            <p><i class="fas fa-home mr-3"></i> Halifax, West Yorkshire, UK</p>
+                            <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> + 044 01422 251613</p>
+                            <p><i class="fas fa-print mr-3"></i> 01422 251613</p>
+                        </div>
 
-<div class="container">
- <div class="row">
-   <div class="col-sm-6">
-     <h2>Column 1</h2>
-     <img id="images-1" class="images-1" src="images/place-holder.png"/>
-     <p>This is column 1. It will take up 6/12 of the screen width on small devices and above.</p>
-   </div>
-   <div class="col-sm-6">
-     <h2>Column 2</h2>
-     <img id="images-1" class="images-1" src="images/place-holder.png"/>
-     <p>This is column 2. It will take up 6/12 of the screen width on small devices and above.</p>
-   </div>
- </div>
-</div>
-
-<div class="container my-5">
-    <!-- Footer -->
-    <footer
-            class="text-center text-lg-start text-white"
-            style="background-color: #929fba"
-            >
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: Links -->
-        <section class="">
-          <!--Grid row-->
-          <div class="row">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">
-                ARCH-WAY PROJECT
-              </h6>
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
+<!-- Grid column -->
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+                            <!-- Facebook -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#" role="button"><i class="fab fa-facebook-f"></i></a>
+                            <!-- Twitter -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#" role="button"><i class="fab fa-twitter"></i></a>
+                            <!-- Google -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#" role="button"><i class="fab fa-google"></i></a>
+                            <!-- Instagram -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#" role="button"><i class="fab fa-instagram"></i></a>
+                            <!-- Linkedin -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#" role="button"><i class="fab fa-linkedin-in"></i></a>
+                            
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
             </div>
-            <!-- Grid column -->
-  
-            <hr class="w-100 clearfix d-md-none" />
-  
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Projects</h6>
-              <p>
-                <a class="text-white">Art</a>
-              </p>
-              <p>
-                <a class="text-white">Dance</a>
-              </p>
-              <p>
-                <a class="text-white">Craft</a>
-              </p>
-              <p>
-                <a class="text-white">Music</a>
-              </p>
+            <!-- Grid container -->
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2024 Copyright:
+                <a class="text-white" href="https://www.archwayproject.org.uk/">ARCH-WAY PROJECT</a>
             </div>
-            <!-- Grid column -->
-  
-            <hr class="w-100 clearfix d-md-none" />
-  
-            <!-- Grid column -->
-            <hr class="w-100 clearfix d-md-none" />
-  
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-              <p><i class="fas fa-home mr-3"></i> Halifax, West Yorkshire, UK</p>
-              <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-              <p><i class="fas fa-phone mr-3"></i> + 044 01422 251613</p>
-              <p><i class="fas fa-print mr-3"></i> 01422 251613</p>
-            </div>
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
-  
-              <!-- Facebook -->
-              <a
-                 class="btn btn-primary btn-floating m-1"
-                 style="background-color: #3b5998"
-                 href="#!"
-                 role="button"
-                 ><i class="fab fa-facebook-f"></i
-                ></a>
-  
-              <!-- Twitter -->
-              <a
-                 class="btn btn-primary btn-floating m-1"
-                 style="background-color: #55acee"
-                 href="#!"
-                 role="button"
-                 ><i class="fab fa-twitter"></i
-                ></a>
-  
-              <!-- Google -->
-              <a
-                 class="btn btn-primary btn-floating m-1"
-                 style="background-color: #dd4b39"
-                 href="#!"
-                 role="button"
-                 ><i class="fab fa-google"></i
-                ></a>
-  
-              <!-- Instagram -->
-              <a
-                 class="btn btn-primary btn-floating m-1"
-                 style="background-color: #ac2bac"
-                 href="#!"
-                 role="button"
-                 ><i class="fab fa-instagram"></i
-                ></a>
-  
-              <!-- Linkedin -->
-              <a
-                 class="btn btn-primary btn-floating m-1"
-                 style="background-color: #0082ca"
-                 href="#!"
-                 role="button"
-                 ><i class="fab fa-linkedin-in"></i
-                ></a>
-              <!-- Github -->
-              <a
-                 class="btn btn-primary btn-floating m-1"
-                 style="background-color: #333333"
-                 href="#!"
-                 role="button"
-                 ><i class="fab fa-github"></i
-                ></a>
-            </div>
-          </div>
-          <!--Grid row-->
-        </section>
-        <!-- Section: Links -->
-      </div>
-      <!-- Grid container -->
-  
-      <!-- Copyright -->
-      <div
-           class="text-center p-3"
-           style="background-color: rgba(0, 0, 0, 0.2)"
-           >
-        © 2024 Copyright:
-        <a class="text-white" href="https://www.archwayproject.org.uk/"
-           >ARCH-WAY PROJECT</a
-          >
-      </div>
-      <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
-  </div>
-  <!-- End of .container -->
-<!-- Bootstrap JS (optional) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    </div>
+    <!-- End of .container -->
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
-
 </html>

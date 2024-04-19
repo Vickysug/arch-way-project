@@ -1,13 +1,26 @@
-body {background-color: white}
-#logo {
+
+.main-container {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for all content */
+    margin: 0 auto; /* Center the content */
+    padding: 0 15px; /* Optional: for better spacing on smaller screens */
+}
+
+
+body {
+    background-color: white;
+}
+
+.logo {
     width: 100px;
     height: auto;
 }
 
-#jumbertron {
+.jumbotron {
     background-color: rgb(189, 69, 69);
 }
-#images-1 {
+
+.images-1 {
     width: 450px;
     height: auto; 
 }
