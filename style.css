@@ -12,10 +12,13 @@ body {
 }
 
 .logo {
-    width: 100px;
+    width: 400px;
     height: auto;
-    margin-right: 20px; /* Add 20px of space to the right of the logo */
-}
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+   }
 
 
 a {
@@ -23,15 +26,18 @@ a {
 }
 
 #jumbotron {
-    background-color: rgb(139, 233, 236);
+    background-color: white;
 }
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: rgb(139, 50, 80);
+    color: black;
     text-align: center;
 }
+ h4 {
+    text-align: center;
+ }
 
 .jumbo-image-home {
     width: 100%;
@@ -41,18 +47,21 @@ h1 {
 
 .images-1 {
     width: 100%;
-    height: auto; 
-    align-content: center;
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 #col-1 {
-    background-color: rgb(164, 216, 96);
+    background-color: white;
 }
 #col-2 {
-    background-color: rgb(226, 163, 81);
+    background-color: white;
 }
 #col-3 {
-    background-color: rgb(221, 148, 191);
+    background-color: white;
 }
 #col-4 {
-    background-color: rgb(138, 221, 221);
+    background-color: white;
 }
