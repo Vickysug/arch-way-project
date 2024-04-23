@@ -39,6 +39,10 @@ h1 {
     text-align: center;
  }
 
+p {
+   text-align: center;
+}
+
 .jumbo-image-home {
     width: 100%;
     height: auto; 
@@ -65,3 +69,19 @@ h1 {
 #col-4 {
     background-color: white;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 1100px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
