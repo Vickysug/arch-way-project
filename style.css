@@ -57,6 +57,15 @@ p {
   margin-right: auto;
   width: 100%;
 }
+.paypal {
+
+    
+    height: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
 #col-1 {
     background-color: white;
 }
