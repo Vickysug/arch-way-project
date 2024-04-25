@@ -24,6 +24,26 @@ body {
   width: 50%;
    }
 
+   .fund-logo {
+    width: 9%; 
+    height: 10%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: -3%;
+ 
+  
+   }
+   .container-fund {
+    background-color: white;
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for all content */
+    margin: 0 auto; /* Center the content */
+    padding-top: 2%;
+    padding-bottom: 1%;
+    
+   }
+
 
 a {
     color: blueviolet;
