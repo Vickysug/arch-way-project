@@ -1,143 +1,159 @@
-
 .main-container {
-    width: 100%;
-    max-width: 1200px; /* Set a max-width for all content */
-    margin: 0 auto; /* Center the content */
-    padding: 0 15px; /* Optional: for better spacing on smaller screens */
-    
+  width: 100%;
+  max-width: 1200px;
+  /* Set a max-width for all content */
+  margin: 0 auto;
+  /* Center the content */
+  padding: 0 15px;
+  /* Optional: for better spacing on smaller screens */
+
 }
 
 
 body {
-    background-color: white;
-    background-image: url(images/archway-art15-fade2.jpg);
+  background-color: white;
+  background-image: url(images/archway-art15-fade2.jpg);
 }
 
 
 
 .logo {
-    width: 400px; 
-    height: auto;
-    display: block;
+  width: 400px;
+  height: auto;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-   }
+}
 
-   .fund-logo {
-    width: 9%; 
-    height: 10%;
-   align-self: center;
-  
+.fund-logo {
+  width: 9%;
+  height: 10%;
+  align-self: center;
+
   margin-left: auto;
   margin-right: auto;
 
-  
- 
-  
-   }
-   .container-fund {
-    background-color: white;
-    width: 100%;
-    max-width: 84.5%; /* Set a max-width for all content */
-    margin: 0 auto; /* Center the content */
-    padding-top: 0.1%4
-    padding-bottom: 0.1%;
-    
-   }
+}
+
+.container-fund {
+  background-color: white;
+  width: 100%;
+  max-width: 84.5%;
+  margin: 0 auto;
+  /* Center the content */
+  padding-top: 0.1%4;
+   padding-bottom: 1%;
+
+}
 
 
 a {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 #jumbotron {
-    background-color: white;
+  background-color: white;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: black;
-    text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: black;
+  text-align: center;
 }
- h4, h5 {
-    text-align: center;
- }
+
+h4,
+h5 {
+  text-align: center;
+}
 
 p {
-   text-align: center;
+  text-align: center;
 }
 
 .jumbo-image-home {
-    width: 100%;
-    height: auto; 
-    align-content: center;
+  width: 100%;
+  height: auto;
+  align-content: center;
 }
 
 .images-1 {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
+
 .paypal {
 
-    
-    height: auto;
-    display: block;
+
+  height: auto;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 20%;
 }
+
 #col-1 {
-    background-color: white;
+  background-color: white;
 }
+
 #col-2 {
-    background-color: white;
+  background-color: white;
 }
+
 #col-3 {
-    background-color: white;
+  background-color: white;
 }
+
 #col-4 {
-    background-color: white;
+  background-color: white;
 }
 
 table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    background-color: white;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 1rem;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #d5f8bee8;
-  }
-  .table-heading {
-    background-color: #93c9a8;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    display: block;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: #d5f8bee8;
+}
+
+.table-heading {
+  background-color: #93c9a8;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-    padding: 1rem;
+  padding: 1rem;
+}
+
+footer {
+  max-width: 100%;
+
+}
+
+@media (max-width: 650) {
+  th {
+    display: none;
   }
 
-  @media (max-width: 650) {
-    th {
-        display: none;
-    }
-    td {
-        display: block;
-    }
+  td {
+    display: block;
   }
+}
